@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+#next, #reset{
+
+  border-radius: 25px;
+  /*border: groove 3px rgb(30, 61, 128);*/
+  border-radius: 2em;
+  width: 120px;
+  background-color: rgba(64, 64, 187, 0.226);
+  border: groove 3px rgb(255, 255, 255);
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2%;
+  margin-top: 2%;
+
+}
+
+
+#reset{
+  background-color: rgba(161, 35, 35, 0.226);
+  border: groove 3px rgb(255, 255, 255);
+  width: 180px;
+}
+
+
+
+#questionsHolder{
+
+    position: absolute;
+    top: 30%;
+
+}
+
+video{
+
+    z-index: -1 ; 
+    position:relative;
+
+}
+
+#outerVideoHolder{
+
+    background-color: rgba(46, 46, 63, 0.822);
+
+}
+
+body {
+  line-height: 1.8;
+  color: #898fa1;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #11245a;
+}
+
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.title-sm {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+a {
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+p {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+
+    color:lightskyblue;
+}
+
+.logo-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #11245a;
+}
+
+.logo-image {
+  width: 240px;
+  height: 150px;
+}
+
+.navbar .nav-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: lightskyblue;
+}
+
+form .form-control {
+  border-radius: 0;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+  border-color: rgb(80, 220, 255);
+}
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  border-top: 1px solid coral;
+}
+
+footer .footer-links a,
+footer .social-icons a {
+  color: #898fa1;
+}
+
+footer .footer-links a {
+  display: block;
+  font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: coral;
+}
