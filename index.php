@@ -49,7 +49,8 @@
 $CurrentQuestion = $_SESSION['Question'];
 
 ?>
-<script src="js/function.js">
+<script src="js/functions.js">
+
 
     if($CurrentQuestion <12)
     {

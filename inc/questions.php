@@ -90,22 +90,25 @@ $ContentHolders = array(
     
     // Slider
     "<input type='range' min='1' max='5' 
-    value='1' class='slider' id='slider' name='slider". $sliderNum+1 ."'>",
+    value='1' class='slider' id='input' name='slider". $sliderNum+1 ."'>",
 
     // RadioButton
     "
-    <input type='radio' id='radioBtn' name='radioBtn'
+    <input type='radio' id='input' name='radioBtn'
      value='Ja'> <label for='html'>Ja</label><br>
      
-     <input type='radio' id='radioBtn' name='radioBtn'
+     <input type='radio' id='input' name='radioBtn'
      value='Nein'> <label for='html'>Nein</label><br>",
 
      // Checkbox x 12
-    "<input type='checkbox' name='checkBoxes[]' id='myCheck' ",
+    "<input type='checkbox' name='checkBoxes[]' id='input' ",
 
     // Numberfield - 1-10
-    "<input type='number' id='quantity' name='quantity' min='1' 
-    max='10'>"
+    "
+    
+        <input type='number' id='input' name='quantity' min='1' 
+        max='10'>
+        "
 
     
 
@@ -113,7 +116,9 @@ $ContentHolders = array(
 
 if($CurrentQuestion >= -1 && $CurrentQuestion < 12)
 {
-    echo "<input type='submit' name='next' id='next' value='Next' /><br/>";
+    echo "<input type='submit' name='next' id='next' value='Next' /> <br/>";
+    //echo "<br>";
+    //echo "<input type='submit' name='reset' id='reset' value='Back to Start' />";
     
     
 }     
