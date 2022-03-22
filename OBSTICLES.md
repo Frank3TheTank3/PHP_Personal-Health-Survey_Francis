@@ -14,3 +14,15 @@ Um es für Smartphones auch richtig zu gestalten, muss das Video zusammen mit de
 4. Bei der Erstellung der Auswertungsseite, gab es Troubleshooting beim Anzeigen der Checkbox Values. Hierzu habe ich
 die POST Antwort in ein Array umgewandlet und dieser in eine SESSION Variable abgespeichert und iterriere durch dieses
 mit einem FOR Loop auf der letzten Seite.
+
+5. Am vorletzten und am letzten Tag war ich mit der Validierung beschäftigt. Da alles dynamisch erzeugt, ohne Form mit Action auf einer neuen Seite, sondern
+auf einer einzigen Seite, musste ich von PHP aus JS Alerts erzeugen, wenn keine Antwort vorhanden war oder der Silder nicht bewegt wurde.
+
+6. Die Lösung für die Formvalidierung bestand darin, die richtige Reihenfolge für den PHP Code herauszufinden und die Überprüfung der Inputfelder,
+vor Überprüfung des Sumbit Knopfes zu kodieren. 
+
+Dazu habe ich eine Global $_Session Variable dazu verwendet, um zu Überprüfen, ob ein $_Post zum
+jeweiligen Input bestand, um die richtige Weiterleitung zur nächsten Frage oder ein Page-Refresh mit Alert und anschliessendem Laden der aktuellen Seite durchzuführen.
+
+7. Trotz vielen Hürden, bei der selbstständigen Erstellung dieses Surveys (ohne die Vorgeschlagenen Lösungen zu verwenden) und meiner eigenen SPA (Single Page Application)
+bin ich stolz darauf, bis zum Schluss dafür Zeit aufgewendet zu haben, da ich viel PHP und gute Praktiken elernt habe.
