@@ -5,8 +5,6 @@ $nextQuestion = $_SESSION['Question'];
 
 $_SESSION['GaveQuestion'] = false;
 
-
-
 if(array_key_exists('reset', $_POST)) {
     unset($_POST);
     $_POST = array();

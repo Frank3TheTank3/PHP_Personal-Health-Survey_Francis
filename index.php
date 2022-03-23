@@ -13,7 +13,7 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 
-<?php include 'inc/header.php';?>
+<?php include 'inc/headger.php';?>
 
 <section id="home">
 
@@ -49,6 +49,9 @@
 $CurrentQuestion = $_SESSION['Question'];
 
 ?>
+
+
+
 <script src="js/functions.js">
 
 
